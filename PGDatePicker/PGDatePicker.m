@@ -1123,7 +1123,7 @@ static NSString *const reuseIdentifier = @"PGDatePickerView";
 }
 
 - (BOOL)isHiddenMiddleText{
-    if (_showUnit == PGShowUnitTypeCenter) {
+    if (_showUnit == PGShowUnitTypeNone) {
         return NO;
     }else if (_showUnit == PGShowUnitTypeAll){
         return YES;
